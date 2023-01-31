@@ -28,12 +28,9 @@ System.Console.Write("Введите первое число: ");
 int numA = Convert.ToInt32(Console.ReadLine());
 System.Console.Write("Введите второе число: ");
 int numB = Convert.ToInt32(Console.ReadLine());
-System.Console.Write("Введите второе число: ");
+System.Console.Write("Введите третье число: ");
 int numC = Convert.ToInt32(Console.ReadLine());
 
-// if (numA > numB && numA > numC) {
-//     System.Console.WriteLine($"Максимальное число {numA}");
-// }
 int [] i = {numA, numB, numC};
 int maxValue = i.Max();
 
@@ -44,6 +41,7 @@ System.Console.WriteLine(maxValue);
 // 4 -> да
 // -3 -> нет
 // 7 -> нет
+
 
 // Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
