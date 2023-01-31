@@ -52,7 +52,7 @@
 // -3 -> нет
 // 7 -> нет
 
-System.Console.Write("Введите первое число: ");
+System.Console.Write("Введите число: ");
 int numA = Convert.ToInt32(Console.ReadLine());
 
 if (numA%2==0){
@@ -66,3 +66,4 @@ else{
 
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
+
